@@ -4,7 +4,6 @@ import './Style.css';
 const Portfolio = () => {
   return (
     <div>
-      {/* Navbar */}
       <nav className="navbar">
         <div className="container">
           <h1>My Portfolio</h1>
@@ -18,7 +17,6 @@ const Portfolio = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section id="hero" className="hero">
         <div className="container hero-content">
           <div className="hero-text">
@@ -33,7 +31,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* About Me */}
       <section id="about" className="about">
         <div className="container">
           <h2>About Me</h2>
@@ -41,7 +38,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Skills */}
       <section id="skills" className="skills">
         <div className="container">
           <h2>Skills & Experience</h2>
@@ -53,7 +49,6 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Projects */}
       <section id="projects" className="projects">
         <div className="container">
           <h2>Projects</h2>
@@ -63,20 +58,18 @@ const Portfolio = () => {
         </div>
       </section>
 
-      {/* Contact */}
       <section id="contact" className="contact">
         <div className="container">
           <h2>Contact Me</h2>
           <p>Email: @zaicastillo.com</p>
           <p>Phone: 639 480 043 155</p>
           <p>Socials:
-            <a href="#"> Facebook</a> |
-            <a href="#"> GitHub</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"> Facebook</a> |
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer"> GitHub</a>
           </p>
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="footer">
         <div className="container">
           <p>&copy; Zairesh_Castillo.</p>
